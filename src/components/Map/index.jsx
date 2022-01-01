@@ -9,7 +9,7 @@ import {
 } from "./styled";
 import useMediaQuery from "../useMediaQuery";
 function Map({ setBounds, setCoordinates, coordinates, places }) {
-  const key = "AIzaSyA4IMas6S0arCMdR9bIJcc7P1AqFuCSuys";
+  const key = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
 
   const isDesktop = useMediaQuery(600);
 

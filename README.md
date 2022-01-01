@@ -8,5 +8,9 @@
   - styled-components
   - axios
 
+**Used APIs**
+  - [Travel Advisor](https://rapidapi.com/apidojo/api/travel-advisor/)
+  - Google Map javascript API
+
 
 **Developed by: `OSMX (Osama Hussein)`**
